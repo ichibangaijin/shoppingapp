@@ -1,3 +1,7 @@
+* {
+	outline:solid 1px red;
+}
+
 body {
 	background-color:#2E7BFF;
 	font-family:helvetica;
@@ -31,3 +35,38 @@ body {
 	border: 12px solid #FDC200;
 }
 	
+
+#inputlabel {
+	font-size: 20px;
+	margin-left:5px;
+	margin-top: 20px;
+	color:white;
+	display:block;
+	
+}
+
+#additem-text-box {
+	font-size: 20px;
+	margin-left:5px;
+
+
+}
+
+.main-text {
+	font-size:20px;
+	
+}
+
+
+li {
+	margin:10px 5px;
+	list-style:none;
+}
+
+button {
+	padding:5px;
+	font-size: 17px;;
+	vertical-align:top;
+
+}
+
