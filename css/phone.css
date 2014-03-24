@@ -65,8 +65,32 @@ li {
 
 button {
 	padding:5px;
-	font-size: 17px;;
+	font-size: 16px;;
 	vertical-align:top;
 
 }
+
+
+ul.list-container {
+	display:inline-block;
+}
+.new-list-item {
+	height:25px;
+	border:solid 1px #2E7BFF; 
+	background-color:white; 
+	width:250px;
+	display:inline-block;
+	font-size: 23px;
+	color: #c317bc;
+	}
+
+button.delete {
+	font-size:10px;
+	display:inline-block;
+	width:50px;
+	vertical-align:top;
+
+}
+
+
 
