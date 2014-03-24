@@ -41,7 +41,7 @@
 
 	<div id="container2">
 		<ul class="list-container">
-			<li class="new-list-item"><p>Hello</p><button class="delete" type="delete">delete</button></li>	
+			<li class="new-list-item"><p>Hello</p></li>	
 		</ul>
 		
 
@@ -51,18 +51,20 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script>
 	$(function(){
-    $("button").click(function(){
+    $("button").on("click", function(){
      var item=$("input[name=inputItem]").val();
         $(".list-container").append("<li class='new-list-item'>" + item + "</li>");
         $("input[name=inputItem]").val("");
         	$(".list-container").append("<button class=delete type= delete>delete</button>");
         	});
 				});
+	
+	$("button.delete").click(function(){
+				$(this).closest("<li>").remove();
+	});
 				
-		 $("button[type=delete]").click(function(){
-     var deletebuttonremove = $(this).closest("li")
-     $(deletebuttonremove).remove();
-		 });
+				 
+	
 		
 	</script>
 </body>
