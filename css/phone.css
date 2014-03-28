@@ -1,0 +1,98 @@
+body {
+	background-color:#2E7BFF;
+	font-family:helvetica;
+	width:100%;
+}
+
+
+#logo-position {
+	font-size:40px;
+	color:white;
+	padding: 10px;
+	text-align:center;
+	text-shadow: 2px 1px 2px black;
+}
+
+#container1 {
+	background-color:#c317bc;
+	width:400px;
+	height:100px;
+	margin:auto;
+}
+
+#container2 {
+	background-color:#58c613;
+	width:400px;
+	height:600px;
+	margin:auto;
+}
+
+#container1, #container2 {
+	border: 12px solid #FDC200;
+}
+	
+
+#inputlabel {
+	font-size: 20px;
+	margin-left:5px;
+	margin-top: 20px;
+	color:white;
+	display:block;
+	
+}
+
+#additem-text-box {
+	font-size: 20px;
+	margin-left:5px;
+
+
+}
+
+.main-text {
+	font-size:20px;
+	
+}
+
+ul{
+  width:322px;
+
+  
+}
+
+li {
+	margin:10px 5px;
+	list-style:none;
+    position:relative;
+    width:322px;
+}
+
+button#additem {
+	padding:3px;
+	font-size: 16px;;
+	vertical-align:top;
+
+}
+
+
+.new-list-item {
+	height:25px;
+	border:solid 1px #2E7BFF; 
+	background-color:white; 
+	width:250px;
+	display:inline-block;
+	font-size: 23px;
+	color: #c317bc;
+	}
+
+button.delete {
+  font-size:10px;
+  position:absolute;
+  right:-55px;
+  top:3px;
+
+
+
+}
+
+
+
