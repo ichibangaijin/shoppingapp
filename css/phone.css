@@ -1,5 +1,5 @@
 body {
-	background-image:url(/img/apples.jpg);
+	background-image:url(../img/apples.jpg);
 	background-repeat:repeat-x;
 	font-family: coustard, helvetica;
 	width:100%;
@@ -23,7 +23,7 @@ body {
 
 
 #cuttingboard-div {
-	background-image:url(/img/cuttingboard.jpg);
+	background-image:url(../img/cuttingboard.jpg);
 	background-repeat:no-repeat;
 	height:750px;
 	width:500px;
