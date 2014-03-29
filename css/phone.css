@@ -1,42 +1,44 @@
 body {
-	background-color:#2E7BFF;
-	font-family:helvetica;
+	background-image:url(/img/apples.jpg);
+	background-repeat:no-repeat;
+	font-family: coustard, helvetica;
 	width:100%;
 }
 
 
 #logo-position {
 	font-size:40px;
-	color:white;
+	color:black;
 	padding: 10px;
 	text-align:center;
-	text-shadow: 2px 1px 2px black;
+	text-shadow: 2px 1px 2px white;
 }
 
 #container1 {
-	background-color:#c317bc;
+	background-color:#50504F;
 	width:400px;
 	height:100px;
 	margin:auto;
 }
 
 #container2 {
-	background-color:#58c613;
+	background-color:rgba(86, 87, 78, 0.58);
 	width:400px;
 	height:600px;
 	margin:auto;
 }
 
 #container1, #container2 {
-	border: 12px solid #FDC200;
+	border: 12px solid rgba(32, 142, 138, 0.42);
 }
 	
 
 #inputlabel {
-	font-size: 20px;
+	font-size: 22px;
 	margin-left:5px;
 	margin-top: 20px;
 	color:white;
+	text-shadow:1px 1px 1px black;
 	display:block;
 	
 }
@@ -76,12 +78,12 @@ button#additem {
 
 .new-list-item {
 	height:25px;
-	border:solid 1px #2E7BFF; 
-	background-color:white; 
 	width:250px;
 	display:inline-block;
 	font-size: 23px;
-	color: #c317bc;
+	font-family: helvetica;
+	color: white;
+	font-stretch: expanded;
 	}
 
 button.delete {

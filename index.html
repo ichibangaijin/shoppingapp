@@ -10,13 +10,15 @@
 
   <link rel="stylesheet" href="css/reset.css">
 
-  <!-- This is the main css style sheet  -->
-  <link rel="stylesheet" href="css/phone.css">
+  <!-- This is the main css style sheet -->
+  <link rel="stylesheet" href="css/phone.css"> 
 
   <!-- these are for developing a responsive website -->
   <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css" />
   <link rel="stylesheet" media="(min-width: 992px)" href="css/small-desktop.css" />
   <link rel="stylesheet" media="(min-width: 1200px)" href="css/large-desktop.css" />
+
+<script src="http://use.edgefonts.net/coustard:n4,n9:all;glass-antiqua:n4:all.js"></script>
 
 
 
@@ -30,6 +32,7 @@
   <div id="logo-position">
     shopping.list.to.go
   </div>
+  <img id="cuttingboard" src="/img/cuttingboard.jpg" alt="cutting board"/>
   <div id="container1">
     <label id="inputlabel" for="inputItem">Input Shopping Item Here:</label>
     <br>
@@ -43,13 +46,14 @@
 
   <div id="container2">
     <ul class="list-container">
-      <li class="new-list-item">
-        <p>Example Item</p>
+      <li id="firstitemexample" class="new-list-item">
+        <p>Milk (example)</p>
       </li>
     </ul>
 
-
-  </div>
+		</div>
+  
+  
   <!-- end of container2 -->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -57,6 +61,7 @@
     $(function () {
     
     	$("button#additem").click(function () {
+    		$("#firstitemexample").remove();
     		var item = $("input[name='inputItem']").val(); 
     		  if (item == ("")){
     		    alert("Please input text");
