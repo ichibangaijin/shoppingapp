@@ -1,6 +1,9 @@
 body {
 	background-image:url(../img/apples.jpg);
-	background-repeat:repeat-x;
+	background-color:rgb(48, 252, 0);
+	background-repeat:no-repeat;
+	background-position: center;
+	
 	font-family: coustard, helvetica;
 	width:100%;
 }
